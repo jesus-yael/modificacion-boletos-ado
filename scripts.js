@@ -25,9 +25,9 @@
                 'ecommerce': {
                     'purchase': {
                     'actionField': {
-                        'id': localStorage.getItem('idTransaccion'),
+                        'id': idTransaccion,
                         'affiliation':'ADO Internet',
-                        'revenue': localStorage.getItem('precio'),
+                        'revenue': lprecio,
                     },
                     'products': [{
                         'id': 'Producto 1',
@@ -35,7 +35,7 @@
                         'price': '10',
                         'brand': 'Boletos ADO',
                         'category': 'Largo Recorrido',
-                        "quantity": localStorage.getItem('numeroBoletos')
+                        "quantity": numeroBoletos
                     }]
                     }
                 }
