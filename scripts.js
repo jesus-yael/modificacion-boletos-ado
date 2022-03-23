@@ -27,7 +27,7 @@
                     'actionField': {
                         'id': idTransaccion,
                         'affiliation':'ADO Internet',
-                        'revenue': lprecio,
+                        'revenue': precio,
                     },
                     'products': [{
                         'id': 'Producto 1',
