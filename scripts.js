@@ -22,6 +22,14 @@
             
             window.dataLayer.push({
                 'event':'Compra',
+                'items': [{
+                    item_name: "Boleto Genérico",
+                    item_id: "Producto 1",
+                    price: "10",
+                    item_brand: "Boletos ADO",
+                    item_category: "Largo Recorrido",
+                    quantity: 1 // Quantity is required.
+                }],
                 'ecommerce': {
                     'purchase': {
                     'actionField': {
