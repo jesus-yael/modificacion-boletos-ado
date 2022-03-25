@@ -28,7 +28,7 @@
                     price: "10",
                     item_brand: "Boletos ADO",
                     item_category: "Largo Recorrido",
-                    quantity: 1 // Quantity is required.
+                    quantity: numeroBoletos
                 }],
                 'ecommerce': {
                     'purchase': {
@@ -64,6 +64,14 @@
             alert('Se cancelaron ' + numeroBoletosCancel + ' boletos.')
             window.dataLayer.push({
                 'event':'Cancelación',
+                'items': [{
+                    item_name: "Boleto Genérico",
+                    item_id: "Producto 1",
+                    price: "10",
+                    item_brand: "Boletos ADO",
+                    item_category: "Largo Recorrido",
+                    quantity: numeroBoletos
+                }],
                 'ecommerce': {
                     'purchase': {
                     'actionField': {
